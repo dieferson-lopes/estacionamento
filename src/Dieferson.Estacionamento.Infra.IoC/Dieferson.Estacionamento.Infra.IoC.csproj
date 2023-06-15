@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dieferson.Estacionamento.Core\Dieferson.Estacionamento.Core.csproj" />
+    <ProjectReference Include="..\Dieferson.Estacionamento.Application\Dieferson.Estacionamento.Application.csproj" />
+    <ProjectReference Include="..\Dieferson.Estacionamento.Infra.Data\Dieferson.Estacionamento.Infra.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

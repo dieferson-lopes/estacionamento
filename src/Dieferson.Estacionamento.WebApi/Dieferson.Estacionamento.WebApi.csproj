@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Dieferson.Estacionamento.Infra.Data\Dieferson.Estacionamento.Infra.Data.csproj" />
+    <ProjectReference Include="..\Dieferson.Estacionamento.Infra.IoC\Dieferson.Estacionamento.Infra.IoC.csproj" />
+  </ItemGroup>
+
 </Project>
