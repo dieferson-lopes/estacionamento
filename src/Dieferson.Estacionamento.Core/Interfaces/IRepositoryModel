@@ -1,0 +1,13 @@
+namespace Dieferson.Estacionamento.Core.Interfaces;
+
+public interface IRepositoryModel<T> where : class
+{
+    List<T> GetAll();
+    T GetById(Guid id);
+    T Update(T object);
+    List<T> AddAll(List<T> object);
+    T Add(T object);
+    void Delete(T object);
+    void DeleteById(Guid id);
+    void SaveChanges(T object);
+}
