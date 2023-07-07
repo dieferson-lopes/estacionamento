@@ -3,7 +3,7 @@ using Dieferson.Estacionamento.Core.Entities;
 using Dieferson.Estacionamento.Infra.Data.Mapping;
 using Microsoft.EntityFrameworkCore;
 
-namespace Dieferson.Estacionamento.Infra.Data;
+namespace Dieferson.Estacionamento.Infra;
 
 public class AppDbContext : DbContext
 {

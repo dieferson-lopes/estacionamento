@@ -1,8 +1,8 @@
-using Dieferson.Estacionamento.Infra.Data;
+using Dieferson.Estacionamento.Infra;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Dieferson.Estacionamento.Infra.Ioc;
+namespace Dieferson.Estacionamento.Infra;
 
 public class ContextExtension {
     public static void AddContext(IServiceCollection services, string connectionString) {
